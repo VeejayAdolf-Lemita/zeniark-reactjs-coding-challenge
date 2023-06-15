@@ -1,16 +1,10 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import PropTypes from 'prop-types';
 import logo from '../images/logo.png';
 
-// eslint-disable-next-line no-unused-vars
-const Results = ({ onPlayAgain }) => {
+const Results = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { answeredQuestions, totalQuestions } = location.state;
-
-  Results.propTypes = {
-    onPlayAgain: PropTypes.func.isRequired,
-  };
 
   const correctAnswers = answeredQuestions.filter(
     (answeredQuestion) => answeredQuestion.answer === answeredQuestion.question.correct_answer,
