@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='hero-wrapper'>
       <div className='logo-container'>
-        <img src={zeniarkLogo} alt='logo' width={230} />
+        <img src={zeniarkLogo} alt='logo' width={270} />
       </div>
       <div className='welcome-message__container'>
         <h4>Welcome to the Trivia Challenge!</h4>
