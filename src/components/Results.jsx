@@ -72,6 +72,7 @@ const Results = () => {
                   >
                     {answeredQuestion.question.correct_answer}
                   </span>
+                  ,
                 </p>
                 <p>
                   You answered{' '}
