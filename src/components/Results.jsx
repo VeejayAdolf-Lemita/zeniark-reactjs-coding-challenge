@@ -8,8 +8,6 @@ const Results = ({ onPlayAgain }) => {
   const location = useLocation();
   const { answeredQuestions, totalQuestions } = location.state;
 
-  console.log(answeredQuestions);
-
   Results.propTypes = {
     onPlayAgain: PropTypes.func.isRequired,
   };

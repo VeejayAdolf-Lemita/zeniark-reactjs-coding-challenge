@@ -45,7 +45,7 @@ const Quiz = () => {
       setTimeout(() => {
         setFade(false);
         setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
-      }, 800); // Adjust the duration (in milliseconds) to match your desired animation speed
+      }, 800);
     }
   };
 
