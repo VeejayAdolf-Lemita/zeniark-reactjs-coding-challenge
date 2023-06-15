@@ -24,7 +24,7 @@ const Results = () => {
       <h1>
         {correctAnswers.length} / {totalQuestions}
       </h1>
-      <h2>Your Score</h2>
+      <h3>Your Score</h3>
       {answeredQuestions.length > 0 && (
         <ol>
           {answeredQuestions.map((answeredQuestion, index) => (
