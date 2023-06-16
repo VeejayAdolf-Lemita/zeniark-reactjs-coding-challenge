@@ -1,4 +1,5 @@
 import zeniarkLogo from '../images/zeniark-logo.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <div className='challenge-container'>
         <h5>Can you score 10/10?</h5>
       </div>
-      <a href='/quiz' className='start-link'>{`LET'S START!`}</a>
+      <Link to='/quiz' className='start-link'>{`LET'S START!`}</Link>
     </div>
   );
 };
