@@ -1,3 +1,7 @@
+# I deploy this app in vercel you can visit this link:
+
+- https://zeniark-reactjs-coding-challenge.vercel.app/
+
 # HOW TO RUN THIS REACT CODING CHALLENGE
 
 - Run this command in your terminal "git clone https://github.com/VeejayAdolf-Lemita/zeniark-reactjs-coding-challenge.git"
