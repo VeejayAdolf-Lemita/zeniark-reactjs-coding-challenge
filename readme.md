@@ -1,4 +1,4 @@
-# I deploy this app in vercel you can visit this link:
+# I DEPLOY THIS REPO IN VERCEL
 
 - https://zeniark-reactjs-coding-challenge.vercel.app/
 
